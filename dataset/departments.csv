@@ -1,0 +1,19 @@
+dept_id,dept_name,benchmark_alos_days
+D01,Cardiology,4.7
+D02,Orthopaedics,3.7
+D03,Neurology,5.2
+D04,General Medicine,3.2
+D05,General Surgery,4.0
+D06,Paediatrics,2.7
+D07,Obstetrics & Gynaecology,2.6
+D08,Nephrology,4.4
+D09,Oncology,5.9
+D10,Pulmonology,4.2
+D11,Gastroenterology,3.6
+D12,Urology,3.0
+D13,ENT,2.0
+D14,Ophthalmology,1.4
+D15,Emergency Short Stay,1.2
+D16,ICU,6.2
+D17,Psychiatry,7.7
+D18,Dermatology,1.6

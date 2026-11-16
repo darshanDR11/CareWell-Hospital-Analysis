@@ -1,0 +1,121 @@
+hospital_id,ward_id,ward_name,beds_total
+H01,H01-W01,General Ward A,38
+H01,H01-W02,General Ward B,40
+H01,H01-W03,Cardiac,28
+H01,H01-W04,Ortho,27
+H01,H01-W05,Maternity,19
+H01,H01-W06,Paediatric,18
+H01,H01-W07,Surgical,32
+H01,H01-W08,Oncology,19
+H01,H01-W09,ICU,14
+H01,H01-W10,Emergency Obs,15
+H02,H02-W01,General Ward A,38
+H02,H02-W02,General Ward B,47
+H02,H02-W03,Cardiac,25
+H02,H02-W04,Ortho,23
+H02,H02-W05,Maternity,21
+H02,H02-W06,Paediatric,18
+H02,H02-W07,Surgical,26
+H02,H02-W08,Oncology,16
+H02,H02-W09,ICU,20
+H02,H02-W10,Emergency Obs,13
+H03,H03-W01,General Ward A,34
+H03,H03-W02,General Ward B,46
+H03,H03-W03,Cardiac,27
+H03,H03-W04,Ortho,25
+H03,H03-W05,Maternity,16
+H03,H03-W06,Paediatric,19
+H03,H03-W07,Surgical,28
+H03,H03-W08,Oncology,17
+H03,H03-W09,ICU,15
+H03,H03-W10,Emergency Obs,12
+H04,H04-W01,General Ward A,50
+H04,H04-W02,General Ward B,50
+H04,H04-W03,Cardiac,21
+H04,H04-W04,Ortho,22
+H04,H04-W05,Maternity,25
+H04,H04-W06,Paediatric,19
+H04,H04-W07,Surgical,34
+H04,H04-W08,Oncology,17
+H04,H04-W09,ICU,13
+H04,H04-W10,Emergency Obs,12
+H05,H05-W01,General Ward A,32
+H05,H05-W02,General Ward B,32
+H05,H05-W03,Cardiac,19
+H05,H05-W04,Ortho,25
+H05,H05-W05,Maternity,16
+H05,H05-W06,Paediatric,14
+H05,H05-W07,Surgical,25
+H05,H05-W08,Oncology,16
+H05,H05-W09,ICU,17
+H05,H05-W10,Emergency Obs,10
+H06,H06-W01,General Ward A,50
+H06,H06-W02,General Ward B,35
+H06,H06-W03,Cardiac,24
+H06,H06-W04,Ortho,26
+H06,H06-W05,Maternity,22
+H06,H06-W06,Paediatric,16
+H06,H06-W07,Surgical,26
+H06,H06-W08,Oncology,14
+H06,H06-W09,ICU,17
+H06,H06-W10,Emergency Obs,14
+H07,H07-W01,General Ward A,35
+H07,H07-W02,General Ward B,41
+H07,H07-W03,Cardiac,21
+H07,H07-W04,Ortho,28
+H07,H07-W05,Maternity,19
+H07,H07-W06,Paediatric,15
+H07,H07-W07,Surgical,34
+H07,H07-W08,Oncology,17
+H07,H07-W09,ICU,18
+H07,H07-W10,Emergency Obs,10
+H08,H08-W01,General Ward A,37
+H08,H08-W02,General Ward B,38
+H08,H08-W03,Cardiac,29
+H08,H08-W04,Ortho,22
+H08,H08-W05,Maternity,22
+H08,H08-W06,Paediatric,20
+H08,H08-W07,Surgical,34
+H08,H08-W08,Oncology,16
+H08,H08-W09,ICU,18
+H08,H08-W10,Emergency Obs,12
+H09,H09-W01,General Ward A,37
+H09,H09-W02,General Ward B,41
+H09,H09-W03,Cardiac,27
+H09,H09-W04,Ortho,20
+H09,H09-W05,Maternity,23
+H09,H09-W06,Paediatric,18
+H09,H09-W07,Surgical,37
+H09,H09-W08,Oncology,16
+H09,H09-W09,ICU,19
+H09,H09-W10,Emergency Obs,10
+H10,H10-W01,General Ward A,34
+H10,H10-W02,General Ward B,41
+H10,H10-W03,Cardiac,19
+H10,H10-W04,Ortho,25
+H10,H10-W05,Maternity,17
+H10,H10-W06,Paediatric,21
+H10,H10-W07,Surgical,35
+H10,H10-W08,Oncology,16
+H10,H10-W09,ICU,13
+H10,H10-W10,Emergency Obs,14
+H11,H11-W01,General Ward A,51
+H11,H11-W02,General Ward B,42
+H11,H11-W03,Cardiac,23
+H11,H11-W04,Ortho,24
+H11,H11-W05,Maternity,23
+H11,H11-W06,Paediatric,16
+H11,H11-W07,Surgical,26
+H11,H11-W08,Oncology,14
+H11,H11-W09,ICU,19
+H11,H11-W10,Emergency Obs,14
+H12,H12-W01,General Ward A,50
+H12,H12-W02,General Ward B,50
+H12,H12-W03,Cardiac,25
+H12,H12-W04,Ortho,22
+H12,H12-W05,Maternity,22
+H12,H12-W06,Paediatric,22
+H12,H12-W07,Surgical,36
+H12,H12-W08,Oncology,13
+H12,H12-W09,ICU,20
+H12,H12-W10,Emergency Obs,12

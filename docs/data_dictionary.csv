@@ -1,0 +1,54 @@
+table,rows,column,data_type,example_value
+admissions,350000,admission_id,text,A0000001
+admissions,350000,patient_id,text,P0158174
+admissions,350000,hospital_id,text,H09
+admissions,350000,dept_id,text,D14
+admissions,350000,admit_ts,date/time,2024-10-01 00:00:37
+admissions,350000,discharge_ts,date/time,2024-10-02 10:33:52
+admissions,350000,doctor_id,text,DR0813
+admissions,350000,admit_type,text,Emergency
+admissions,350000,diagnosis_code,text,H40
+admissions,350000,ward_id,text,H09-W07
+bed_day_snapshot,87600,snapshot_date,date/time,2024-10-01
+bed_day_snapshot,87600,hospital_id,text,H01
+bed_day_snapshot,87600,ward_id,text,H01-W01
+bed_day_snapshot,87600,beds_total,number,38
+bed_day_snapshot,87600,beds_occupied,number,3
+bed_day_snapshot,87600,beds_blocked,number,0
+bills,350000,bill_id,text,B0000001
+bills,350000,admission_id,text,A0000001
+bills,350000,room_charges,number,3600.0
+bills,350000,pharmacy,number,3810.0
+bills,350000,procedures,number,35830.0
+bills,350000,total_amount,number,43240.0
+bills,350000,payer_type,text,Insurance
+claims,244133,claim_id,text,CL0000001
+claims,244133,bill_id,text,B0000001
+claims,244133,insurer,text,ICICI Lombard
+claims,244133,claimed_amt,number,43240.0
+claims,244133,approved_amt,number,43240.0
+claims,244133,status,text,Approved
+claims,244133,reason,text,Treatment not covered
+claims,244133,submitted_date,date/time,2024-10-03
+claims,244133,settled_date,date/time,2024-10-21
+departments,18,dept_id,text,D01
+departments,18,dept_name,text,Cardiology
+departments,18,benchmark_alos_days,number,4.7
+doctors,900,doctor_id,text,DR0001
+doctors,900,doctor_name,text,Dr. Vikram Mehta
+doctors,900,dept_id,text,D01
+doctors,900,hospital_id,text,H01
+doctors,900,join_date,date/time,2017-01-30
+doctors,900,senior_doctor_id,text,DR0217
+hospitals,12,hospital_id,text,H01
+hospitals,12,hospital_name,text,CareWell Ahmedabad North
+hospitals,12,city,text,Ahmedabad
+patients,260000,patient_id,text,P0000001
+patients,260000,gender,text,F
+patients,260000,dob,date/time,1992-05-10
+patients,260000,city,text,Pune
+patients,260000,insurance_id,text,PMJAY
+wards,120,hospital_id,text,H01
+wards,120,ward_id,text,H01-W01
+wards,120,ward_name,text,General Ward A
+wards,120,beds_total,number,38
