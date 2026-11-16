@@ -4,7 +4,6 @@ USE carewell_hospital;
 
 
 
-
 -- 1. Hospitals
 CREATE TABLE hospitals (
     hospital_id VARCHAR(20) PRIMARY KEY,
@@ -15,7 +14,7 @@ LOAD DATA INFILE "D:\\PROJECTS\\CareWell_Hospital\\cleaned_dataset\\hospitals.cs
 INTO TABLE hospitals
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
+LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES;
 
 
@@ -31,7 +30,7 @@ LOAD DATA INFILE "D:\\PROJECTS\\CareWell_Hospital\\cleaned_dataset\\departments.
 INTO TABLE departments
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
+LINES TERMINATED BY '\r\n'
 IGNORE 1 lines;
 
 
@@ -48,7 +47,7 @@ CREATE TABLE wards (
 LOAD DATA INFILE "D:\\PROJECTS\\CareWell_Hospital\\cleaned_dataset\\wards.csv" INTO TABLE wards
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
+LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES
 (hospital_id, ward_id, ward_name, beds_total);
 
@@ -69,8 +68,11 @@ CREATE TABLE doctors (
 LOAD DATA INFILE "D:\\PROJECTS\\CareWell_Hospital\\cleaned_dataset\\doctors.csv" INTO TABLE doctors
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
-IGNORE 1 LINES;
+LINES TERMINATED BY '\r\n'
+IGNORE 1 LINES
+(doctor_id,doctor_name,dept_id,hospital_id,join_date,@v_senior_doctor_id)
+SET senior_doctor_id  = IF(@v_senior_doctor_id='', NULL, @v_senior_doctor_id);
+
 
 
 
@@ -87,7 +89,9 @@ LOAD DATA INFILE "D:\\PROJECTS\\CareWell_Hospital\\cleaned_dataset\\patients.csv
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
-IGNORE 1 LINES;
+IGNORE 1 LINES
+(patient_id, gender, dob, city, @v_insurance_id)
+SET insurance_id = IF(@v_insurance_id='', NULL, @v_insurance_id);
 
 
 
