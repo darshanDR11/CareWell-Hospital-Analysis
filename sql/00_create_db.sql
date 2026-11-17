@@ -191,4 +191,3 @@ IGNORE 1 LINES
 SET reason = IF(@v_reason='', NULL, @v_reason), settled_date = IF(@v_settled_date='', NULL, @v_settled_date);
 
 
-
